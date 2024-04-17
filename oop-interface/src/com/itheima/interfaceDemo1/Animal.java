@@ -1,19 +1,19 @@
-package com.itheima.polymorphismDemo1;
+package com.itheima.interfaceDemo1;
 
 /**
  * 功能:
  * 作者:
- * 日期:2024/04/16 19:29
+ * 日期:2024/04/17 20:02
  */
-public class Person {
+public abstract class Animal {
     private String name;
-    private  int age;
+    private int age;
 
 
-    public Person() {
+    public Animal() {
     }
 
-    public Person(String name, int age) {
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -51,11 +51,8 @@ public class Person {
     }
 
     public String toString() {
-        return "com.itheima.polymorphismDemo1.Person{name = " + name + ", age = " + age + "}";
+        return "Animal{name = " + name + ", age = " + age + "}";
     }
 
-
-    public void show(){
-        System.out.println(name + ", " + age);
-    }
+    public abstract void eat();
 }

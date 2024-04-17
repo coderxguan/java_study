@@ -1,4 +1,4 @@
-package com.itheima.polymorphismDemo1;
+package com.itheima.polymorphismDemo2.polymorphismDemo1;
 
 /**
  * 功能:
