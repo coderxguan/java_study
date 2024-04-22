@@ -10,10 +10,10 @@ import com.itheima.ui.RegisterJFrame;
 public class APP {
     public static void main(String[] args) {
         // the entry of program
-
-        new LoginJFrame();
-        new RegisterJFrame();
-
         new GameJFrame();
+//        new LoginJFrame();
+//        new RegisterJFrame();
+//
+
     }
 }
