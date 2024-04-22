@@ -23,7 +23,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
     int y = 0;
 
     // record picture path
-    String path = "puzzlegame\\image\\animal\\animal3\\";
+    String path = "image\\animal\\animal3\\";
 
     int [][] win = {
             {1, 2, 3, 4},
@@ -105,7 +105,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
 
         if(victory()){
             // show the icon of win
-            JLabel winJLabel = new JLabel(new ImageIcon("D:\\coding\\Java学习\\basic-code\\puzzlegame\\image\\win.png"));
+            JLabel winJLabel = new JLabel(new ImageIcon("image\\win.png"));
             winJLabel.setBounds(203, 283, 197, 73);
             this.getContentPane().add(winJLabel);
         }
@@ -134,7 +134,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         }
 
         // add background image
-        JLabel background = new JLabel(new ImageIcon("puzzlegame\\image\\background.png"));
+        JLabel background = new JLabel(new ImageIcon("image\\background.png"));
         background.setBounds(40, 40, 508, 560);
         this.getContentPane().add(background);
 
@@ -222,7 +222,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             this.getContentPane().add(all);
 
             // load background image
-            JLabel background = new JLabel(new ImageIcon("puzzlegame\\image\\background.png"));
+            JLabel background = new JLabel(new ImageIcon("image\\background.png"));
             background.setBounds(40, 40, 508, 560);
             this.getContentPane().add(background);
 
@@ -354,7 +354,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
         else if(obj == accountItem){
             System.out.println("account");
             JDialog jDialog = new JDialog();
-            JLabel jLabel = new JLabel(new ImageIcon("puzzlegame\\image\\about.png"));
+            JLabel jLabel = new JLabel(new ImageIcon("image\\about.png"));
             jLabel.setBounds(0, 0, 258, 258);
             jDialog.getContentPane().add(jLabel);
             jDialog.setSize(344, 344);
@@ -369,7 +369,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             Random r = new Random();
             step = 0;
             initData();
-            path = "puzzlegame\\image\\girl\\girl"+(r.nextInt(13)+1) +"\\";
+            path = "image\\girl\\girl"+(r.nextInt(13)+1) +"\\";
             initImage();
         }
         else if(obj == animal){
@@ -377,7 +377,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             Random r = new Random();
             step = 0;
             initData();
-            path = "puzzlegame\\image\\animal\\animal"+(r.nextInt(8)+1) +"\\";
+            path = "image\\animal\\animal"+(r.nextInt(8)+1) +"\\";
             initImage();
         }
         else if(obj == sport){
@@ -385,7 +385,7 @@ public class GameJFrame extends JFrame implements KeyListener, ActionListener {
             Random r = new Random();
             step = 0;
             initData();
-            path = "puzzlegame\\image\\sport\\sport"+(r.nextInt(10)+1) +"\\";
+            path = "image\\sport\\sport"+(r.nextInt(10)+1) +"\\";
             initImage();
         }
     }
