@@ -20,9 +20,11 @@
       <module fileurl="file://$PROJECT_DIR$/myiotest/myiotest.iml" filepath="$PROJECT_DIR$/myiotest/myiotest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylist/mylist.iml" filepath="$PROJECT_DIR$/mylist/mylist.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymap/mymap.iml" filepath="$PROJECT_DIR$/mymap/mymap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysocketnet/mysocketnet.iml" filepath="$PROJECT_DIR$/mysocketnet/mysocketnet.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysort/mysort.iml" filepath="$PROJECT_DIR$/mysort/mysort.iml" />
       <module fileurl="file://$PROJECT_DIR$/mystatic/mystatic.iml" filepath="$PROJECT_DIR$/mystatic/mystatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/mystring/mystring.iml" filepath="$PROJECT_DIR$/mystring/mystring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mythread/mythread.iml" filepath="$PROJECT_DIR$/mythread/mythread.iml" />
       <module fileurl="file://$PROJECT_DIR$/myvessel/myvessel.iml" filepath="$PROJECT_DIR$/myvessel/myvessel.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-abstract/oop-abstract.iml" filepath="$PROJECT_DIR$/oop-abstract/oop-abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop-code/oop-code.iml" filepath="$PROJECT_DIR$/oop-code/oop-code.iml" />
