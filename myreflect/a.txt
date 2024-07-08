@@ -1,0 +1,5 @@
+name=littleA
+age=23
+gender=女
+height=167.5
+hobby=sleep
